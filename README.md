@@ -30,7 +30,7 @@ Carbon tracking system with IoT device integration, activity logging, and a carb
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/megh5na/ecotrace 
 cd EcoTraceUI
 ```
 
