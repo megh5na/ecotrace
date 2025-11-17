@@ -66,12 +66,12 @@ export default function Profile() {
           <div className="flex items-start gap-4">
             <Avatar className="h-20 w-20">
               <AvatarFallback className="text-2xl bg-primary text-primary-foreground">
-                JD
+                AA
               </AvatarFallback>
             </Avatar>
             <div className="flex-1">
               <h2 className="text-2xl font-bold" data-testid="text-username">
-                John Doe
+                Alex Albon
               </h2>
               <p className="text-sm text-muted-foreground">Member since October 2025</p>
               <div className="flex gap-2 mt-3">

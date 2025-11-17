@@ -1,4 +1,4 @@
-import { Home, Activity, Lightbulb, Leaf, User } from "lucide-react";
+import { Home, Activity, Lightbulb, Leaf, User, Wifi } from "lucide-react";
 import { Link, useLocation } from "wouter";
 import {
   Sidebar,
@@ -19,17 +19,22 @@ const menuItems = [
     icon: Home,
   },
   {
+    title: "IoT Devices",
+    url: "/iot-devices",
+    icon: Wifi,
+  },
+  {
     title: "Track Activity",
     url: "/track",
     icon: Activity,
   },
   {
-    title: "AI Recommendations",
+    title: "Smart Recommendations",
     url: "/recommendations",
     icon: Lightbulb,
   },
   {
-    title: "Impact & Projects",
+    title: "Impact & Credits",
     url: "/impact",
     icon: Leaf,
   },

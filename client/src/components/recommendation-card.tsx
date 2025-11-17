@@ -26,7 +26,6 @@ export function RecommendationCard({
   const handleApply = () => {
     setApplied(true);
     onApply?.();
-    console.log("Recommendation applied:", title);
   };
 
   return (
